@@ -400,10 +400,17 @@ nav.container {
   display: block;
 }
 .directions .section-subtitle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
   padding-top: 27px;
   padding-bottom: 27px;
+
   color: var(--primary-white-color);
   background: rgba(47, 48, 58, 0.8);
+
   text-align: center;
 }
 /* Позиционирование в "Чем мы занимаемся" */
@@ -411,6 +418,7 @@ nav.container {
   display: flex;
 }
 .directions > .item {
+  position: relative;
   display: block;
   width: calc((100% - 60px) / 3);
 }
