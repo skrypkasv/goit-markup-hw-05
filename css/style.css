@@ -364,9 +364,9 @@ nav.container {
 /*  */
 /*  */
 /* "Оснобенности компании" */
-.features {
-  padding: 94px 0px;
-  border-bottom: 1px solid var(--border-color);
+.section .container.features {
+  padding-top: 94px;
+  padding-bottom: 0px;
   cursor: default;
 }
 .features .section-subtitle {
