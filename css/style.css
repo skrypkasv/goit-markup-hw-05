@@ -349,6 +349,8 @@ nav.container {
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.06em;
+
+  transition: box-shadow 250ms var(--time-function);
 }
 .order-service:hover,
 .order-service:focus {
@@ -518,6 +520,8 @@ nav.container {
   border-radius: 4px;
 
   text-align: center;
+
+  transition: border 250ms var(--time-function);
 }
 .companies .link {
   display: inline-flex;
@@ -530,6 +534,8 @@ nav.container {
 .client-icon {
   margin: auto;
   fill: currentColor;
+
+  transition: fill 250ms var(--time-function);
 }
 .companies .link:hover .client-icon,
 .companies .link:focus .client-icon {
@@ -638,6 +644,8 @@ address {
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.06em;
+
+  transition: box-shadow 250ms var(--time-function);
 }
 .telegram-icon {
   margin-left: 10px;
@@ -718,6 +726,10 @@ address {
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.06em;
+
+  transition: color 250ms var(--time-function),
+    background-color 250ms var(--time-function),
+    box-shadow 250ms var(--time-function);
 }
 .filter:hover,
 .filter:focus {
@@ -733,6 +745,7 @@ address {
 .project .item {
   padding-bottom: 20px;
   border: 1px solid var(--project-bdr-color);
+  transition: box-shadow 250ms var(--time-function);
 }
 .project .link {
   display: block;
